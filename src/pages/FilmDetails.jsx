@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loading from "../components/Loading/Loading";
-import Species from "../components/FilDetails/Species";
-import Vehicles from "../components/FilDetails/Vehicles";
-import Locations from "../components/FilDetails/Locations";
-import People from "../components/FilDetails/People";
+import Species from "../components/FilmDetails/Species";
+import Vehicles from "../components/FilmDetails/Vehicles";
+import Locations from "../components/FilmDetails/Locations";
+import People from "../components/FilmDetails/People";
 
 const FilmDetails = () => {
     const { id } = useParams();
