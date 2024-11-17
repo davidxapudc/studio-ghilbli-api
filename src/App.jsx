@@ -6,14 +6,14 @@ import FilmDetails from "./pages/FilmDetails";
 const App = () => {
     return (
         <Router>
-            <Routes>
-                <Route path="/" element={<MainLayout />}>
-                    <Route index element={<FilmList />} />
-                    <Route path="film/:id" element={<FilmDetails />} />
-                </Route>
-            </Routes>
+        <Routes>
+            <Route path="/" element={<MainLayout />}>
+            <Route index element={<FilmList />} />
+            <Route path="film/:id" element={<FilmDetails />} />
+            </Route>
+        </Routes>
         </Router>
     );
-};
+    };
 
 export default App;
